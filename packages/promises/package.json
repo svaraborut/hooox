@@ -3,7 +3,7 @@
   "description": "Enterprise grade hooks for React for promise management",
   "author": "Borut Svara <borut@svara.io>",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,9 +14,12 @@
     "react": "^16.8.0  || ^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:svaraborut/hooox.git"
+    "url": "git+ssh://git@github.com/svaraborut/hooox.git"
   },
   "keywords": [
     "React",
